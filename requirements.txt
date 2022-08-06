@@ -1,0 +1,16 @@
+certifi==2022.6.15
+charset-normalizer==2.1.0
+idna==3.3
+instagrapi==1.16.27
+maskpass==0.3.6
+Pillow==9.2.0
+pycryptodomex==3.15.0
+pydantic==1.9.1
+pynput==1.7.6
+PySocks==1.7.1
+pyTelegramBotAPI==4.6.1
+python-dotenv==0.20.0
+requests==2.28.1
+six==1.16.0
+typing_extensions==4.3.0
+urllib3==1.26.11
