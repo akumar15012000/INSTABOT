@@ -8,7 +8,10 @@ load_dotenv()
 
 bot=telebot.TeleBot(os.getenv('api_key'))
 
-cl=util.login()
+try:
+    cl=util.login()
+except:
+    print('Unsucessful Login')
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
